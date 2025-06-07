@@ -3,7 +3,7 @@
 
 int main(void){
 	char merkki;
-	char merkkijono[21];
+	char merkkijono[20];
 
 	printf("Anna merkki: ");
 	scanf("%c", &merkki);
