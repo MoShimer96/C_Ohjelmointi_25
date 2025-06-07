@@ -13,7 +13,7 @@ int main(void){
 	printf("Anna korkeintaan 20 merkkiä pitkä merkkijono: ");
 	fgets(merkkijono, 20, stdin);
 	merkkijono[strlen(merkkijono)-1] = '\0';
-	printf("Annoit merkkijono '%s'.", merkkijono);
+	printf("Annoit merkkijonon '%s'.", merkkijono);
 
 	return(0);
 }
